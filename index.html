@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Viagem</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css"> 
+    </head>
+    
+    <body>
+        
+        <!-- Cabeçalho da página -->
+        <div class="cabecalho">
+            <h1>MINHA VIAGEM.COM</h1>
+            <p><strong>Sua agência de viagens online</strong></p>
+        </div>
+        
+        <!-- Barra de menus -->
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="precos.html">Preços</a>
+            <a style="float:right" href="login.html">Log In</a>
+        </div>
+        
+        <!-- Conteúdo da página -->
+        <div class="responsivo">
+            <div class="galeria">
+                <a target="_blank" href="paris.html">
+                    <img src="paris.jpg" alt="Paris" width="1800" height="1200">
+                </a>
+                <div class="desc">Paris</div>
+            </div>
+        </div>
+
+        <div class="responsivo">
+            <div class="galeria">
+                <a target="_blank" href="roma.html">
+                    <img src="roma.jpg" alt="Roma" width="1800" height="1200">
+                </a>
+                <div class="desc">Roma</div>
+            </div>
+        </div>
+        
+        <div class="responsivo">
+           <div class="galeria">
+                <a target="_blank" href="nova-york.html">
+                    <img src="nova-york.jpg" alt="Nova York" width="1800" height="1200">
+                </a>
+                <div class="desc">Nova York</div>
+            </div>
+        </div>
+        
+        <div class="responsivo">
+            <div class="galeria">
+                <a target="_blank" href="londres.html">
+                    <img src="londres.jpg" alt="Londres" width="1800" height="1200">
+                </a>
+                <div class="desc">Londres</div>
+            </div>
+        </div>
+            
+        <div class="clearfix"></div>
+        
+        <div class="conteudo">
+            <p>Uma experiência única em viagens</p>
+            <p id="sub">Cadastre-se e aproveite</p>
+            <div>
+                <form action="sucesso.html"></a>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nom" name="Nome" placeholder="Seu nome..">
+
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sob" name="Sobrenome" placeholder="Seu sobrenome..">
+
+                    <label for="pais">País</label>
+                    <select id="pais" name="pais">
+                        <option value="brasil">Brasil</option>
+                        <option value="canada">Canada</option>
+                        <option value="inglaterra">Inglaterra</option>
+                        <option value="alemanha">Alemanha</option>
+                    </select>
+					<br><br>
+					<label for="sexo">Sexo</label><br>
+					<input type="radio" name="genero" value="masculino" checked>Masculino<br>
+					<input type="radio" name="genero" value="feminino">Feminino<br><br>
+					
+					Nascimento:
+					<input type="date" name="nasc"><br><br>
+  
+                    <input type="submit" value="enviar">		  
+				</form>
+            </div>                
+        </div>
+        
+        <div class="rodape">
+            Minha Viagem.com - Sua agência de viagens online
+        </div>           
+    </body>
+</html>
